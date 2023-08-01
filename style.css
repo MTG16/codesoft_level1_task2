@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+#main {
+  width: 100%;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+nav img {
+  margin: 4px;
+}
+nav ul {
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+nav ul li {
+  padding: 17px;
+}
+nav ul li a {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #2196f3;
+}
+/* header */
+#header {
+  background-image: url("./image6.jpg");
+  display: flex;
+  color: white;
+}
+.name {
+  padding: 70px;
+  width: 100%;
+}
+.name p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.name h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+/* about section */
+#about {
+  background-image: url("./image3.jpg");
+  background-size: 100% 100%;
+  color: white;
+  padding: 60px;
+  margin-left: -30px;
+}
+.ab {
+  display: flex;
+}
+.cont {
+  max-width: 50%;
+}
+.cont h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.cont p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.photo {
+  width: 90%;
+  padding-left: 60px;
+}
+.photo img {
+  box-shadow: 5px 5px 5px black;
+}
+
+/* Certification */
+#certi {
+  padding: 60px;
+  margin-left: -30px;
+  background-image: url("./image6.jpg");
+  color: white;
+}
+.cer h1 {
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.cer ul {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 20px;
+}
+/* Skills */
+#skills {
+  padding: 60px;
+  margin-left: -30px;
+  background-image: url("./img1.jpg");
+  background-size: 100% 100%;
+  color: white;
+}
+.skl progress {
+  padding: 25px;
+  width: 70%;
+  color: black;
+}
+.skl p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+
+/* Projects */
+#projects {
+  background-image: url("./image6.jpg");
+  padding: 60px;
+  margin-left: -30px;
+  color: white;
+}
+.pro h1 {
+  font-size: 32px;
+  font-family: "Century Gothic";
+  font-weight: bold;
+  text-decoration: underline;
+}
+.pro ul {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 20px;
+}
+
+/* Resume */
+
+#resume {
+  padding: 60px;
+  margin-left: -30px;
+  background-image: url("./image6.jpg");
+  color: white;
+}
+.res h1 {
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.res .bttn {
+  display: flex;
+  border: 2px solid black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 200px;
+  background-color: white;
+  color: black;
+}
+.res .bttn:hover {
+  background: gray;
+  transition-duration: 0.5;
+}
+.res p {
+  font-family: "Century Gothic";
+}
+/* Contact US */
+#contactus {
+  background-image: url("./img2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 30px;
+}
+.contact h1 {
+  font-size: 32px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.contact ul {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 20px;
+}
+.contact .det {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contact .det .d p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+/* Footer */
+
+#footer {
+  height: 10vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#footer p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.html {
+  width: 90%;
+  border-radius: 50px;
+  background-color: #04aa6d;
+}
+.Clanguage {
+  width: 85%;
+  border-radius: 50px;
+  background-color: #2196f3;
+}
+.Java {
+  width: 80%;
+  border-radius: 50px;
+  background-color: #f44336;
+}
+.Python {
+  width: 90%;
+  border-radius: 50px;
+  background-color: #808080;
+}
+.DS {
+  width: 88%;
+  border-radius: 50px;
+  background-color: rgba(105, 91, 230, 0.781);
+}
+.container {
+  justify-content: center;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #ddd;
+}
+.skl h2 {
+  text-align: center;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.res .btn1 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.res.btn1:hover {
+  background-color: RoyalBlue;
+}
